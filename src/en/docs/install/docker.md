@@ -31,6 +31,7 @@ In the `default.yml`, the hosts that set with `localhost` from Postgresql/Redis 
 :::
 
 Edit `docker-compose.yml` if necessary. (e.g. if you want to change the port).
+With docker compose f.e. you have to change the host in default.yml to the service name in your docker-compose.yml
 
 Build and initialize
 ----------------------------------------------------------------
